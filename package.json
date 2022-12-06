@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
+  "directories": {},
+  "scripts": {
     "doc": "docs",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
 }
